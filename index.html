@@ -6,28 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learn CSS with W3 School</title>
     <style>
-        a:link,
-        a:visited {
-            background-color: #f44336;
-            color: white;
-            padding: 14px 25px;
-            text-decoration: none;
-            align-items: center;
-            display: inline-block;
+        .a {
+            list-style-type: circle;
         }
 
-        a:hover,
-        a:active {
-            background-color: greenyellow;
+        .b {
+            list-style-type: square;
+        }
+
+        .c {
+            list-style-type: lower-alpha;
+        }
+
+        .d {
+            list-style-type: upper-roman;
         }
     </style>
 </head>
 
 <body>
 
-    <h2>Styling a link depending on state</h2>
+    <h2>The list-style-type Property</h2>
 
-    <p><b><a href="#" target="_blank">This is a link</a></b></p>
+    <p>Example of unordered lists:</p>
+    <ul class="a">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Mojo</li>
+    </ul>
+    <ul class="b">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Mojo</li>
+    </ul>
+    <ol class="c">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Mojo</li>
+    </ol>
+    <ol class="d">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Mojo</li>
+    </ol>
 </body>
 
 </html>

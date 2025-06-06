@@ -6,22 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learn CSS with W3 School</title>
     <style>
-        .relative {
-            position: relative;
-            left: 30px;
-            border: 2px solid turquoise;
-        }
+       .fixed{
+        width: 300px;
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        border: 2px solid seagreen;
+       }
     </style>
 </head>
 
 <body>
-    <h2>position: relative;</h2>
 
-    <p>An element with position: relative; is positioned relative to its normal position:</p>
+    <h2>position: fixed;</h2>
 
-    <div class="relative">
-        This div element has position: relative;
+    <p>An element with position: fixed; is positioned relative to the viewport, which means it always stays in the same
+        place even if the page is scrolled:</p>
+
+    <div class="fixed">
+        This div element has position: fixed;
     </div>
+
 </body>
 
 </html>

@@ -6,17 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learn CSS with W3 School</title>
     <style>
-        .hidden {
-            /* display: none; */
-            visibility: hidden;
+        div.ex1{
+            width: 500px;
+            margin: auto;
+            border: 2px solid greenyellow;
+        }
+        div.ex2{
+            max-width: 500px;
+            margin: auto;
+            border: 2px solid greenyellow;
         }
     </style>
 </head>
 
 <body>
-    <h1>This is a visible heading</h1>
-    <h1 class="hidden">This is a hidden heading</h1>
-    <p>Notice that the h1 element with display: none; does not take up any space.</p>
+    <h2>CSS Max-width</h2>
+
+    <div class="ex1">This div element has width: 500px;</div>
+    <br>
+
+    <div class="ex2">This div element has max-width: 500px;</div>
 </body>
 
 </html>

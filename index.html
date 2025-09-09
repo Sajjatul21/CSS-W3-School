@@ -6,34 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learn CSS with W3 School</title>
     <style>
-        div {
-            float: left;
-            padding: 15px;
+        .grid-container{
+            display:grid;
+            grid-template-columns: auto auto auto;
+            background-color: dodgerblue;
+            padding: 10px;
+            gap: 10px;
         }
 
-        .div1 {
-            background-color: red;
-        }
+        .grid-container>div {
+            background-color: #f1f1f1;
+            text-align: center;
+            padding: 10px;
+            font-size: 30px;
 
-        .div2 {
-            background-color: yellow;
         }
-
-        .div3 {
-            background-color: green;
+        .item1{
+            grid-column-start: 1;
+            grid-column-end: 3;
         }
     </style>
 </head>
 
 <body>
-
-    <h2>Float Next To Each Other</h2>
-
-    <p>In this example, the three divs will float next to each other.</p>
-
-    <div class="div1">Div 1</div>
-    <div class="div2">Div 2</div>
-    <div class="div3">Div 3</div>
+    <div class="grid-container">
+        <div class="item1">1</div>
+        <div class="item2">2</div>
+        <div class="item3">3</div>
+        <div class="item4">4</div>
+        <div class="item5">5</div>
+        <div class="item6">6</div>
+        <div class="item7">7</div>
+        <div class="item8">8</div>
+    </div>
 </body>
 
 </html>
